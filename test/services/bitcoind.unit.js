@@ -769,7 +769,7 @@ describe('Bitcoin Service', function() {
         }
       };
       var bitcoind = new BitcoinService(config);
-      bitcoind._getDefaultConf().rpcport.should.equal(9332);
+      bitcoind._getDefaultConf().rpcport.should.equal(9882);
     });
     it('will get default rpc port for testnet', function() {
       var config = {
